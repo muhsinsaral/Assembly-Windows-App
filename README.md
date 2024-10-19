@@ -3,6 +3,7 @@ Thanks to Dave's Garage
 https://www.youtube.com/watch?v=b0zxIfJJLAY&t=1450s
 ***
 instal masm32
+***
 Update line 11050 in winextra.inc as follows,
 ```
 STD_ALERT struct
@@ -12,7 +13,8 @@ STD_ALERT struct
 STD_ALERT ends
 ```
 ***
-and run 
+and run
+***
 ```
 ml /coff app123.asm
 ```
